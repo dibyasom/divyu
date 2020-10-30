@@ -22,7 +22,7 @@ body{
 
     .connect {
         position: relative;
-        top: 25em;
+       
         margin: auto;
         padding: 0.5em;
         text-align: center;
@@ -45,7 +45,7 @@ body{
 
     .connect {
         position: relative;
-        top: 8em;
+        left: 5em;
         margin: auto;
         padding: 0.5em;
         text-align: center;
@@ -53,7 +53,7 @@ body{
     }
 
     hr.separator {
-        border: 0.1em solid rgb(248, 209, 82);
+        border: 0.1em solid rgba(190, 0, 254, 0.9);
         border-radius: 5px;
     }
 }
@@ -70,7 +70,7 @@ body{
     box-sizing: border-box;
 }
 
-#profile h1 {
+h1 {
     font-family: 'Eater';
     font-size: 2.5em;
     font-style: italic;
@@ -78,20 +78,20 @@ body{
     text-shadow: 7px 7px 2px #f75234;
 }
 
-#profile h2 {
+h2 {
     font-family: 'Galada';
     font-size: 1.5em;
     font-style: italic;
     text-shadow: 1px 1px rgba(190, 0, 254, 0.7);
 }
 
-.icebreaker h3 {
+h3 {
     font-family: 'Galada';
     font-size: 1.25em;
     text-shadow: 1px 1px 0px #f75234;
 }
 
-.icebreaker p {
+p {
     margin: auto;
     font-family: 'Galada';
     font-size: 1em;
@@ -120,6 +120,34 @@ div.icebreaker {
     box-sizing: border-box;
 }
 
+div.card1 {
+    position: relative;
+    top: 2em;
+    max-width: 70%;
+
+    text-align: center;
+    background-color: rgba(255, 255, 150, 0.6);
+    margin: 10px auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+div.card2 {
+    position: relative;
+    top: 2em;
+    max-width: 70%;
+   
+    text-align: center;
+    background-color: rgba(255, 255, 150, 0.6);
+    margin: 10px auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
 div.card {
     position: relative;
     top: 30px;
@@ -132,29 +160,22 @@ div.card {
     border-radius: 10px;
 }
 
-img.logo {
-    border-radius: 5px;
-    max-width: 50%;
-    height: auto;
-}
-
-
 .fa-linkedin {
     color: royalblue;
     font-size: 2em;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px white;
 }
 
 .fa-github-alt {
     font-size: 2em;
-    color: darkgrey;
-    text-shadow: 2px 2px 2px black;
+    color: black;
+    text-shadow: 2px 2px 2px white;
 }
 
 .fa-instagram {
     font-size: 2em;
     color: blueviolet;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(252, 153, 45);
 }
 
 .fa-instagram:hover {
