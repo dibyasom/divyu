@@ -9,7 +9,7 @@
 
 body{
 	height: 100%;
-    width: auto;
+    	width: auto;
 }
 
 @media only screen and (max-width: 1080px) { /*Mobile Display*/
